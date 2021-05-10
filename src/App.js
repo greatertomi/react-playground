@@ -1,14 +1,21 @@
 import React from 'react';
 
 import './App.css';
-import Navbar from './components/Nav/Navbar';
+import Article from './components/Article';
+import User from './components/User';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="app">
+      <header>
+        <h1>React Skeleton</h1>
+      </header>
+      <div className="content">
+        <Article />
+        <User />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
