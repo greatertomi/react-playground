@@ -1,10 +1,10 @@
 import React from 'react';
-import ModalIndex from './modal/ModalIndex';
+import FormikForm from './validations/FormikForm';
 
 const App = () => {
   return (
     <>
-      <ModalIndex />
+      <FormikForm />
     </>
   );
 };
