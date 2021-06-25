@@ -1,8 +1,9 @@
 import React from 'react';
 
-import './App.css';
-import Article from './components/Article';
-import User from './components/User';
+import './app.css';
+import SkeletonArticle from './SkeletonArticle';
+import SkeletonProfile from './SkeletonProfile';
+
 
 const App = () => {
   return (
@@ -11,8 +12,8 @@ const App = () => {
         <h1>React Skeleton</h1>
       </header>
       <div className="content">
-        <Article />
-        <User />
+        <SkeletonArticle />
+        <SkeletonProfile />
       </div>
     </div>
   );
